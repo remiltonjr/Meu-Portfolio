@@ -272,30 +272,34 @@ main .sobre{
     .section-div img{
         display: none;
     }
-    .section-div{
+    .section-div {
         background-image: url('Assets/imagens/minhafoto.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
     }
-    .section-div p{
+    
+    .section-div p {
         color: rgb(36, 35, 35);
     }
-    header{
+    
+    header {
         justify-content: space-between;
         padding: 30px 70px;
-
     }
-    header .nav-primaria{
+    
+    header .nav-primaria {
         display: none;
     }
-    header i{
+    
+    header i {
         color: #f7f7f7;
         font-size: 3rem;
     }
-    header .nav-primaria.ativado{
-        background:linear-gradient(rgba(43,42,42, 0.176), rgba(46,46,46, 0.724));
-        position:absolute;
+    
+    header .nav-primaria.ativado {
+        background: linear-gradient(rgba(43, 42, 42, 0.176), rgba(46, 46, 46, 0.724));
+        position: absolute;
         display: grid;
         top: 80px;
         color: white;
@@ -307,16 +311,16 @@ main .sobre{
         right: 20px;
         animation: sobeSecao .8s ease-in-out forwards;
     }
-    .sobre img{
+    
+    .sobre img {
         grid-column: 1/-1;
         justify-self: center;
     }
+    
     .sobre_conteudo {
         grid-column: 1/-1;
-
     }
-
-}
+}  
 
 /* Seção resumo */
 
@@ -478,6 +482,17 @@ main .sobre{
 }
 .port_projetos ul li a{
     color: #f7f7f7;
+}
+
+@media (max-width: 767px) {
+    .portfolio {
+        padding: 30px;
+    }
+    
+    .port_projetos ul li {
+        height: auto;
+        max-width: none;
+    }
 }
 
 /* Seção Contato.*/
