@@ -1,2 +1,2 @@
 # Meu-Portfolio
-Fiz esse projeto para testar meus conhecimentos e mostrar para quem tiver interessado nele.
+Foi um projeto para testar meus conhecimentos e para mostrar quem tiver interesse um pouco sobre mim!!
